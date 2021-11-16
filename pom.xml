@@ -76,7 +76,7 @@
 				<version>2.17</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src\test\resources\runner\testng.xml</suiteXmlFile>
+						<systemPropertiesFiles>testng.xml</systemPropertiesFiles>
 					</suiteXmlFiles>
 					<reportsDirectory>test-output</reportsDirectory>
 				</configuration>
