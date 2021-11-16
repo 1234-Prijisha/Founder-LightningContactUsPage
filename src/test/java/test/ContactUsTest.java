@@ -42,7 +42,6 @@ public class ContactUsTest extends BaseTest {
 	}
 
 	/**verify ContactUS page email format should be xyz@abc.com*/
-	@Test
 	public boolean verifyEmailFormat(String emailID){
 		String regex = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
 		//Matching the given email with regular expression
@@ -51,8 +50,7 @@ public class ContactUsTest extends BaseTest {
 	}
 
 
-	/**verify ContactUS page mobile number enters should be in range 0 to 9*/
-	@Test
+	/**verify ContactUS page mobile number entered should be in range 0 to 9*/
 	public boolean verifyMobileNumberRange(String mobNumber) {
 		if (mobNumber.matches("\\d{10}"))  
 			return true;  
